@@ -36,6 +36,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
 
         a {
           color: #e82a92;
+          text-decoration: none;
         }
 
         .content {
