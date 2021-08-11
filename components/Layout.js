@@ -22,7 +22,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
             Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
             sans-serif;
           color: #445566;
-          
+          min-height: 100vh;
         }
 
         h1,
@@ -35,7 +35,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         }
 
         a {
-          color: #e82g92;
+          color: #e82a92;
         }
 
         .content {
