@@ -28,7 +28,7 @@ const Index = ({ posts, title, description, ...props }) => {
       <style jsx>{`
         .title {
           margin: 1rem auto;
-          font-size: 3rem;
+          font-size: 2rem;
         }
       `}</style>
     </>

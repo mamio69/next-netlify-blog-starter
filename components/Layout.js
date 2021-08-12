@@ -21,7 +21,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
             Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
             sans-serif;
-          color: #445566;
+          color: #090909;
           min-height: 100vh;
         }
 

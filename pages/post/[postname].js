@@ -11,12 +11,12 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   return (
     <>
       <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
-        <div className="back">
+        {/* <div className="back">
           ←{' '}
           <Link href="/">
             <a>Back to post list</a>
           </Link>
-        </div>
+        </div> */}
         <article>
           <h1>{frontmatter.title}</h1>
           {frontmatter.hero_image && (
@@ -34,13 +34,13 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
       <style jsx>{`
         article {
           width: 100%;
-          max-width: 1200px;
+          max-width: 800px;
         }
         h1 {
-          font-size: 3rem;
+          font-size: 2rem;
         }
         h3 {
-          font-size: 2rem;
+          font-size: 1.5rem;
         }
         .hero {
           width: 100%;

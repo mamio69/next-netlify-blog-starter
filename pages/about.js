@@ -4,14 +4,17 @@ const About = ({ title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={`${title} | About`} description={description}>
-        <h1 className="title">Welcome to this demo blog!</h1>
+        <h1 className="title">まみおブログへようこそ!</h1>
 
         <p className="description">
-          This is a simple blog built with Next, easily deployable on{' '}
+          このブログは
+          <a href="https://nextjs.org/">Next.js</a>.
+          と{' '}
           <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
+          で作成しました。
         </p>
 
-        <p>
+        {/* <p>
           You can check out the{' '}
           <a href="https://github.com/cassidoo/next-netlify-blog-starter">
             repo here.
@@ -26,7 +29,7 @@ const About = ({ title, description, ...props }) => {
         <p>
           This project includes a basic layout and header, base styles, dynamic
           routing with getStaticPaths, and posts saved as Markdown.
-        </p>
+        </p> */}
       </Layout>
     </>
   )

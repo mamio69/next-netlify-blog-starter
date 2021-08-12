@@ -9,7 +9,7 @@ export default function Header() {
             <a>まみおブログ</a>
           </Link>
           <Link href="/about">
-            <a>About</a>
+            <a>about</a>
           </Link>
         </nav>
       </header>
@@ -24,7 +24,7 @@ export default function Header() {
         }
         nav {
           width: calc(100% - 40px);
-          max-width: 1200px;
+          max-width: 1000px;
           font-weight: bold;
           font-size: 1.3rem;
         }
