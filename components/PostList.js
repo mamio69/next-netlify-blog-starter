@@ -27,14 +27,12 @@ export default function PostList({ posts }) {
       </div>
       <style jsx>{`
         div {
-          width: 800px;
+          max-width: 700px;
         }
-
         li {
           list-style: none;
           padding-bottom: 25px;
         }
-
         a {
           font-size: 1.1rem;
           font-weight: bold;

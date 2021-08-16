@@ -44,7 +44,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           flex: 1;
           display: flex;
           flex-direction: column;
-          justify-content: left;
+          // justify-content: left;
           align-items: center;
         }
 
