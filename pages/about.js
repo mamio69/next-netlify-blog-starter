@@ -4,10 +4,10 @@ const About = ({ title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={`${title} | About`} description={description}>
-        <h1 className="title">まみおブログへようこそ!</h1>
+        <h1 className="title">まみおブログへようこそ！</h1>
 
         <p className="description">
-          このブログは
+          このブログは{' '}
           <a href="https://nextjs.org/">Next.js</a>.
           と{' '}
           <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
@@ -31,6 +31,13 @@ const About = ({ title, description, ...props }) => {
           routing with getStaticPaths, and posts saved as Markdown.
         </p> */}
       </Layout>
+      <style jsx>{`
+        .title {
+          font-size: 3rem;
+          line-height: 1.05;
+          letter-spacing: .9px;
+        }
+      `}</style>
     </>
   )
 }

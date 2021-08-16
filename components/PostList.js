@@ -12,18 +12,32 @@ export default function PostList({ posts }) {
             posts.map((post) => {
               return (
                 <li key={post.slug}>
-                  {post.frontmatter.date} {` `}
+                  
                   <Link href={{ pathname: `/post/${post.slug}` }}>
                     <a>{post?.frontmatter?.title}</a>
                   </Link>
+                  <br />
+                  <small className="date">
+                    {post.frontmatter.date} {` `}
+                  </small>
                 </li>
               )
             })}
         </ul>
       </div>
       <style jsx>{`
+        div {
+          width: 800px;
+        }
+
         li {
           list-style: none;
+          padding-bottom: 25px;
+        }
+
+        a {
+          font-size: 1.1rem;
+          font-weight: bold;
         }
       `}</style>
     </>

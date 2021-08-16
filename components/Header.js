@@ -8,9 +8,9 @@ export default function Header() {
           <Link href="/">
             <a>まみおブログ</a>
           </Link>
-          <Link href="/about">
+          {/* <Link href="/about">
             <a>about</a>
-          </Link>
+          </Link> */}
         </nav>
       </header>
       <style jsx>{`
@@ -24,7 +24,7 @@ export default function Header() {
         }
         nav {
           width: calc(100% - 40px);
-          max-width: 1000px;
+          max-width: 800px;
           font-weight: bold;
           font-size: 1.3rem;
         }
