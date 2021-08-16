@@ -2,7 +2,7 @@
 title: '新しいブログはじめました'
 author: 'Netlifriends'
 date: '2021/08/12'
-hero_image: ../static/20210813.png
+hero_image: ../static/icon01.png
 ---
 
 Reactの勉強をかねて雑記ブログをつくってみました。
@@ -16,7 +16,7 @@ WordPressでブログを書いてみてもなんだかここち悪くて。き�
 
 NetlifyのNext.jsをつかったチュートリアルを見つけたのでかんたんにつくることができました。
 
-## Reactでブログを書くメリット
+## Reactでブログをつくるメリット
 
 自分なりに考えたメリットは4つあって
 
