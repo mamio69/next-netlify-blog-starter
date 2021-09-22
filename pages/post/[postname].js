@@ -20,13 +20,13 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
         <article>
           <h1>{frontmatter.title}</h1>
           <section>
-          {frontmatter.hero_image && (
-            <img
-              src={frontmatter.hero_image}
-              className="hero"
-              alt={frontmatter.title}
-            />
-          )}
+            {frontmatter.hero_image && (
+              <img
+                src={frontmatter.hero_image}
+                className="hero"
+                alt={frontmatter.title}
+              />
+            )}
           </section>
           <div>
             <ReactMarkdown source={markdownBody} />
@@ -39,7 +39,6 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           max-width: 700px;
           position: relative;
         }
-        
         h1 {
           font-size: 2rem;
         }
@@ -47,8 +46,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           font-size: 1.5rem;
         }
         section {
-          text-align: center;
-          background-image: url('../static/2021081600.png');
+          background-image: url('../static/dot.svg');
           background-color: #4a488e;
           width: auto;
           height: 300px;
@@ -72,13 +70,12 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           border-right: solid 20px transparent;
           bottom: 100%;
         }
-        // section:after{
-        //   border-top: solid 20px #ff9627;
-        //   border-left: solid 20px transparent;
-        //   top: 100%;
-        // }
         .hero {
           width: 110px;
+        }
+        div {
+          margin-top: 3rem;
+          line-height: 1.8;
         }
         .back {
           width: 100%;

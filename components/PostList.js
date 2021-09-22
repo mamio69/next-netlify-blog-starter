@@ -37,6 +37,10 @@ export default function PostList({ posts }) {
           font-size: 1.1rem;
           font-weight: bold;
         }
+        .date {
+          font-weight: bold;
+          color: #c0c6c9;
+        }
       `}</style>
     </>
   )

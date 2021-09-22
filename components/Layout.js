@@ -44,7 +44,6 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           flex: 1;
           display: flex;
           flex-direction: column;
-          // justify-content: left;
           align-items: center;
         }
 
@@ -67,7 +66,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <div className="content">{children}</div>
       </section>
       <footer>
-        Built with <img src="/netliheart.svg" alt="Netlify Heart" /> for you
+        © 2021, 69inc all rights reserved.
       </footer>
     </>
   )
