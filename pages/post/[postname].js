@@ -37,6 +37,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
         article {
           width: 100%;
           max-width: 700px;
+          margin: 0 auto;
           position: relative;
         }
         h1 {
@@ -65,7 +66,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           left: 0;
           content: "";
         }
-        section:before{
+        section:before {
           border-bottom: solid 20px #4a488e;
           border-right: solid 20px transparent;
           bottom: 100%;
@@ -74,13 +75,23 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           width: 110px;
         }
         div {
-          margin-top: 3rem;
+          margin: 48px 24px 0;
           line-height: 1.8;
         }
         .back {
           width: 100%;
           max-width: 1200px;
           color: #00a395;
+        }
+        img {
+          width: 100%;
+        }
+        @media (max-width:700px) {
+          section {
+            height: 200px;
+          }
+          section:before {
+            display: none;
         }
       `}</style>
     </>

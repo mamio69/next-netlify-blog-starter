@@ -39,8 +39,12 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           text-decoration: none;
         }
 
+        img {
+          width: 100%;
+        }
+
         .content {
-          padding: 2rem 20px;
+          padding-top: 32px;
           flex: 1;
           display: flex;
           flex-direction: column;
